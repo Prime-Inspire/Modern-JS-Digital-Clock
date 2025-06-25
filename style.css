@@ -1,0 +1,37 @@
+/* 
+Author of the Font:
+https://www.dafont.com/16-segments.font
+*/
+@font-face {
+    font-family: 'Technology';
+    src: url('technology_2/Technology.ttf');
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+.clock-wrapper {
+  padding: 40px 80px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
+}
+
+.clock {
+  font-size: 60px;
+  color: #00fff7;
+  text-shadow: 0 0 10px #00fff7, 0 0 20px #00fff7;
+  letter-spacing: 4px;
+  font-family: 'Technology';
+}
